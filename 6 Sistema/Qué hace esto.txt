@@ -1,0 +1,20 @@
+Este conjunto de cambios en el registro está orientado a desactivar casi todas las funciones de ahorro de energía y limitación de rendimiento en Windows para mantener el sistema funcionando a máxima capacidad, sin throttling ni hibernación, con temporizadores más precisos. Esto puede ser útil para:
+
+Mejorar el rendimiento en tareas que necesitan baja latencia o máximo uso de CPU/GPU.
+
+Evitar ralentizaciones o limitaciones automáticas por ahorro energético.
+
+Pero incrementa el consumo energético y reduce la duración de batería en laptops.
+
+
+"EnergySaverStatus"=dword:00000000
+Desactiva el estado de ahorro de energía (Energy Saver). Cuando está en 0, Windows no activa el modo de ahorro energético automático.
+
+"DynamicThrottlePolicy"=dword:00000000
+Controla la política de "throttling" dinámico (limitación dinámica del rendimiento de CPU para ahorrar energía). Valor 0 significa que esta limitación está deshabilitada, por lo que no se reduce el rendimiento automáticamente para ahorrar energía.
+
+"HibernateEnabled"=dword:00000000
+Desactiva la hibernación del sistema. No se podrá hibernar (guardar el estado de la sesión en disco y apagar). También afecta la función de "Inicio rápido" (Fast Startup), que usa hibernación parcial.
+
+"EcoMode"=dword:00000000
+Desactiva el modo Eco, una función de Windows que reduce el uso de energía de ciertas aplicaciones o procesos para mejorar la eficiencia energética.
