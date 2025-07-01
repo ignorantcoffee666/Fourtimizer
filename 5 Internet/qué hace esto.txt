@@ -1,0 +1,7 @@
+Este script modifica configuraciones para que las interfaces de red y el subsistema TCP/IP no entren en modos de ahorro de energía ni se apaguen automáticamente, lo que puede ser útil para:
+
+Evitar desconexiones inesperadas de la red.
+
+Mejorar la estabilidad de la conexión, especialmente en PCs que tienen problemas con la gestión de energía de red.
+
+Pero puede aumentar un poco el consumo energético.
