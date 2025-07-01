@@ -1,0 +1,33 @@
+Desactivar funciones de bajo consumo.
+Priorizar el rendimiento sobre la eficiencia.
+Aumentar la prioridad de procesos relacionados con gráficos.
+Desactivar modos modernos de suspensión (como Connected Standby).
+
+
+
+Evita que Windows aparque núcleos del CPU, algo que puede:
+✅ Mejorar estabilidad de FPS y reducir input lag.
+⚠️ Aumentar consumo energético.
+
+
+
+Ajusta prioridades del scheduler para tareas gráficas
+Este bloque configura una mayor prioridad del sistema operativo para tareas relacionadas con GPU, útil para:
+Mejores tiempos de respuesta visual.
+Reducción de stutter.
+Estos tweaks van alineados con mejorar el input lag en juegos o programas como OBS.
+
+
+
+Reduce latencia del temporizador de administración de energía
+Esto impide que Windows agrupe tareas para ahorrar energía, algo que reduce latencia a cambio de usar más CPU.
+
+
+
+✅ Resumen: ¿Este .reg sirve?
+
+Área	                    Impacto
+FPS y fluidez	            ✅ Positivo, especialmente en juegos
+Latencia / input lag	    ✅ Mejora la respuesta
+Consumo energético	    ❌ Aumenta ligeramente
+Estabilidad general	    ⚠️ Bien en desktop, cuidado en laptops
