@@ -1,0 +1,7 @@
+El de borrar archivos temporales solo hace eso y no afecta en nada, libera memoria (puede ser poquita o mucha)
+
+
+Y el de desfragmentar y optimizar unidades lo abren, seleccionan su disco y si les deja dar click en la opción Optimizar, le dan click y listo.
+
+
+El de desinstalar un programa es solo para ver los programas que tienen y desinstalen el que ya no usan si quieren.
