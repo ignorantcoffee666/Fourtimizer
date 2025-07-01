@@ -1,0 +1,45 @@
+Resumen general
+1. Desactivar sincronización de configuración
+Evita que Windows sincronice configuraciones como personalización, navegador, credenciales, accesibilidad, etc., entre dispositivos.
+
+2. Desactivar transparencia
+Apaga efectos visuales como la transparencia en ventanas y menús para mejorar rendimiento.
+
+3. Desactivar Game Bar y Game DVR
+Apaga la barra de juegos y grabación automática para reducir uso de recursos.
+
+Activa el "Modo juego" para priorizar recursos cuando juegas.
+
+4. Activar Hardware Accelerated GPU Scheduling
+Permite que la GPU administre mejor la cola de comandos para mejorar rendimiento gráfico (requiere hardware compatible).
+
+5. Desactivar Variable Refresh Rate (VRR)
+Apaga la tasa de refresco variable, que algunos usan para evitar tearing, pero a veces causa problemas en juegos o rendimiento.
+
+6. Desactivar características de accesibilidad
+Apaga opciones como Sticky Keys, Mouse Keys, Toggle Keys, para evitar que interfieran si no las usas.
+
+7. Privacidad:
+Apaga la publicidad personalizada.
+
+Bloquea varios servicios que recopilan datos, diagnósticos y telemetría.
+
+Evita que Windows envíe datos de diagnóstico y personalización basada en esos datos.
+
+Bloquea actividades como historial y carga de actividades de usuario.
+
+Niega permisos a apps para notificaciones, diagnósticos y acceso a cuentas.
+
+
+
+
+En resumen
+Este .reg está orientado a:
+
+Mejorar rendimiento y reducir lag (desactivando transparencias, Game DVR, VRR, etc.)
+
+Mejorar privacidad (desactivando telemetría, recopilación de datos y permisos de apps)
+
+Optimizar para gaming (activando hardware scheduling, modo juego)
+
+Evitar distracciones y procesos en background.
