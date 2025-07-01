@@ -1,0 +1,6 @@
+Se deshabilita la compresión del framebuffer en la GPU.
+
+Se habilita el GPU Boost para aumento dinámico de frecuencias.
+
+Se deshabilita el servicio GpuEnergyDrv, para evitar que gestione energía o afecte rendimiento.
+
